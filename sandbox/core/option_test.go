@@ -820,6 +820,7 @@ func TestSandboxConfig_AuthMode(t *testing.T) {
 		{"default mode", "DEFAULT"},
 		{"token mode", "TOKEN"},
 		{"none mode", "NONE"},
+		{"public mode", "PUBLIC"},
 	}
 
 	for _, tt := range tests {
